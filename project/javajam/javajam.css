@@ -1,0 +1,81 @@
+body {
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Tahoma, Arial, sans-serif;
+    background-image: url('images/fadedroad50.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    color: #8C3826;
+    background-color: #D2B48C;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+nav {
+    background-color: #D2B48C;
+    padding: 15px 0;
+    width: 20%;
+    float: left;
+    height: 600px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #221811;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+
+main {
+    width: 80%;
+    float: right;
+    padding: 25px 50px;
+}
+
+footer {
+    clear: both;
+    background-color: #D2B48C;
+    font-size: .70em;
+    font-style: italic;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 2px solid #8C3826;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+#homehero, #menuhero, #musichero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+#homehero {
+    background-image: url('images/heroguitar.jpg');
+}
+
+#menuhero {
+    background-image: url('images/heromugs.jpg');
+}
+
+#musichero {
+    background-image: url('images/heromusic.jpg');
+}
+
+h2 {
+    margin-top: 0;
+}
